@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            border: 1px solid red;
+        }
+        #my-element2 {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Change element by ID</h1>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum debitis, iusto quasi dolores magni suscipit optio odio blanditiis nam? Rerum tempore nisi corrupti labore facere, modi saepe impedit natus maxime!</p>
+
+    <ul id="my-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <div id="my-element">This is the element to be removed.</div>
+
+    <ul id="my-list2">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <img id="my-image" src="old-image.jpg" alt="Old Image">
+
+    <div id="my-element">This is a div element.</div>
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+
+    <p id="my-paragraph">This is the original paragraph text.</p>
+    <button id="change-text-button">Change Text</button>
+
+    <div id="my-element2">Hover over me</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
