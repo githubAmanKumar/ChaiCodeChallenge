@@ -1,4 +1,5 @@
 // Activity1
+
 // Task1
 document.getElementById("heading").innerText = "content changed";
 
