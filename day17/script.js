@@ -1,4 +1,5 @@
 // Activity1
+
 // Task1
 class Node {
     constructor(value) {
