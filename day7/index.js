@@ -47,6 +47,7 @@ console.log(library.name,library.books);
 console.log(book.meth());
 
 // Activity5
+
 // Task8 and Task9
 for (const key in book) {
     console.log(key , book[key]);
