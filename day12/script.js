@@ -148,7 +148,6 @@ fetch(url)
 .catch(e=>console.log("check url : "+e.message));
 
 // Task9
-
 const fetchFunction = async (str) => {
     try {
         const fetchResult = await fetch(str)
