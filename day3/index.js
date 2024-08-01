@@ -88,6 +88,7 @@ switch (true) {
       grade = 'F';
   }
 //   console.log(grade);
+
 // Activity4
 // Task6
 val=7;
