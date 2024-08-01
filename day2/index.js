@@ -47,6 +47,7 @@ if (true === 1) {
 }
 
 // Activity 4
+
 // Task11
 if (age = 18 && age > 18) {
     console.log("you can vote");
