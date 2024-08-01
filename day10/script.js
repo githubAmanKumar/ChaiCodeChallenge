@@ -20,8 +20,6 @@ document.getElementById("colorChange").addEventListener("mouseout", () => {
     document.getElementById("colorChange").style.background = "teal";
 })
 
-
-
 // Activity3
 // Task5
 document.getElementById("input").addEventListener("keydown", (e) => {
