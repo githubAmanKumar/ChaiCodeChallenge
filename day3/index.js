@@ -3,6 +3,7 @@ var num2 = 22;
 var num3 = 222;
 var age = 22;
 // Activity1
+
 // Task1
 if (num1 > 0) {
     console.log("number is positive");
