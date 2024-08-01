@@ -15,7 +15,6 @@ prom.then((message) => {
 
 // Activity2
 // Task3
-
 function fetchData1() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
