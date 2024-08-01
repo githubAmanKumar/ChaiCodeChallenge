@@ -1,4 +1,3 @@
-
 // Activity1
 // Task1
 var name = "Hitesh Sir";
