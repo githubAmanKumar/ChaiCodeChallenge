@@ -1,1 +1,1 @@
-node module folder not uploaded i both parts
+node module folder not uploaded in both parts
