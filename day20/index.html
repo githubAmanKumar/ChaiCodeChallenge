@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>User Information (local storage demo)</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    <div id="savedData">
+        <h2>Saved Data</h2>
+        <p id="nameDisplay"></p>
+        <p id="emailDisplay"></p>
+    </div>
+
+    <h1>LocalStorage Demo</h1>
+    <button id="removeButton">Remove 'item2'</button>
+    <pre id="localStorageContent"></pre>
+
+    <div class="form-container">
+        <h1>User Information (session storage demo)</h1>
+        <form id="userForm2">
+            <label for="name">Name:</label>
+            <input type="text" id="name2" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email2" name="email" required><br><br>
+            <button type="submit">Save2</button>
+        </form>
+    </div>
+    <div id="savedData2">
+        <h2>Saved Data</h2>
+        <p id="nameDisplay2"></p>
+        <p id="emailDisplay2"></p>
+    </div>
+
+    <h1>SessionStorage Demo</h1>
+    <button id="removeButton2">Remove 'item2'</button>
+    <pre id="sessionStorageContent"></pre>
+
+    <h1>Storage Example</h1>
+    <button id="saveButton">Save to Storage</button>
+    <pre id="storageContent"></pre>
+
+    <h1>Clear Storage Example</h1>
+    <button id="clearButton">Clear All Storage</button>
+    <pre id="storageContent"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
