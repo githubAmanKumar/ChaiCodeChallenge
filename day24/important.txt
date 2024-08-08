@@ -1,0 +1,1 @@
+in script.js code file there is api key variable's value required from open weather API sevice
