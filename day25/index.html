@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Search</title>
+    <title>Movie Search App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Movie Search</h1>
-        <input type="text" id="search" placeholder="Search for movies...">
-        <button id="searchButton">Search</button>
-        <div id="results"></div>
-    </div>
+    <header>
+        <h1>Movie Search App</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for a movie..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <div id="results-container">
+            <!-- Movie search results will be displayed here -->
+        </div>
+    </main>
 
+    <!-- Modal for movie details -->
+    <div id="details-modal" class="modal">
+        <!-- Modal content will be injected here by JavaScript -->
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
