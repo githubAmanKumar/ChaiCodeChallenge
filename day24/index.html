@@ -7,18 +7,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="weather-container">
+    <header>
         <h1>Weather App</h1>
-        <input type="text" id="cityInput" placeholder="Enter city name">
-        <button onclick="getWeather()">Get Weather</button>
-        <div id="weatherResult">
-            <h2 id="cityName"></h2>
-            <img id="weatherIcon" src="" alt="Weather Icon" class="color-change">
-            <p id="weatherDescription"></p>
-            <p id="temperature"></p>
-        </div>
-    </div>
+    </header>
+    <main>
 
+        <section id="weather-info">
+            <h2>Current Weather</h2>
+            <div id="weather-details">
+                <!-- Weather details will be inserted here -->
+            </div>
+        </section>
+        <section id="weather-form">
+            <h2>Check Weather</h2>
+            <form id="city-form">
+                <label for="city">Enter city:</label>
+                <div class="input-container">
+                    <input type="text" id="city" name="city" placeholder="e.g., New York" required>
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Weather App</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
